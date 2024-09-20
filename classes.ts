@@ -1,4 +1,10 @@
-class Person {
+interface IPerson {
+    id: number
+    name: string 
+    age: number 
+    sayMyName(): string
+}
+class Person implements IPerson{
     id: number
     name: string 
     age: number 
