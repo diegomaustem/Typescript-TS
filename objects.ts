@@ -14,4 +14,18 @@ const user: User = {
     orders: ['Queue one', 'Queue two']
 }
 
-console.log(user)
+// Unions
+
+type Author = {
+    books: string []
+}
+
+// The Author bellow will have all porperty of User also ::: 
+const author: Author & User = {
+    books: ['My first book', 'My seccond book'],
+    firstName: 'Carlos',
+    age: 28,
+    email: 'carlos@gmail.com',
+    orders: ['First order', 'Seccond order'],
+    password: '123456'
+}

@@ -5,4 +5,12 @@ var user = {
     password: 'Dg#42241',
     orders: ['Queue one', 'Queue two']
 };
-console.log(user);
+// The Author bellow will have all porperty of User also ::: 
+var author = {
+    books: ['My first book', 'My seccond book'],
+    firstName: 'Carlos',
+    age: 28,
+    email: 'carlos@gmail.com',
+    orders: ['First order', 'Seccond order'],
+    password: '123456'
+};
