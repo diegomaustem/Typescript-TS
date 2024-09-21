@@ -21,3 +21,6 @@ class Person implements IPerson{
 }
 
 const p = new Person(1, 'Thiago', 21)
+
+
+// Subclasses 
